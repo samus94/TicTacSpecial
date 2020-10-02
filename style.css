@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://i.imgur.com/OxFL3hz.png");
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-size: cover;
+    /* background-color: rgb(108, 191, 247); */
+    background-size: 50% 50%;
+    background-color: rgb(248, 246, 246)
+}
+
+
+.tableContainer {
+    margin-top: -27px;
+    z-index: -2;
+}
+
+
+.tablePt1 {
+    width: 500px;
+    height: 250px;
+    border: 1px solid black;
+    transform: perspective(10px) rotateX(1deg);
+    margin: auto;   
+    background-color: rgb(187, 131, 59);
+}
+
+.tablePt2 {
+    border: 1px solid black;
+    width: 640px;
+    height: 15px;
+    margin: auto;
+    margin-top: 34px;
+    background-color: rgb(153, 106, 45);
+}
+
+.winCount {
+    border: 2px solid black;
+    margin: auto;
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    width: 180px;
+    height: 180px;
+    display: grid;
+    grid-template-columns: 1fr;
+    border-radius: 10%;
+    background-color: ivory;
+}
+
+.ticContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    width: 60%;
+    margin: auto;
+    margin-top: 40px;
+    height: 150px;
+}
+
+.tacSec {
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background-color: ivory;
+    height: 60px;
+    cursor: pointer;
+}
+
+.tacSec p {
+    width: 50%;
+    margin: auto;
+    display: none;
+}
+
+
+.handy {
+    width: 100%;
+    margin: auto;
+    align-self: center;
+    display: block;
+    position: absolute;
+    height: 40%;
+    margin-top: -50px;
+    min-height: fit-content;
+    z-index: 1;
+}
+
+
+.playerRedContainer {
+    width: 100%;
+}
+
+
+
+.redBody {
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+
+.randyArmor {
+    width: 50%;
+    margin-left: 100px;
+}
+
+.winnerX {
+    background-color: rgb(255, 242, 65);
+    position: absolute;
+    width: 296px;
+    margin: auto;
+    /* z-index: 2; */
+    margin-left: 101px;
+    margin-top: 41px;
+    height: 178px;
+    text-align: center;
+    visibility: hidden;
+}
+
+.winStatementX {
+    margin-top: 73px;
+}
+
+.winnerO {
+    background-color: rgb(255, 242, 65);
+    position: absolute;
+    width: 296px;
+    margin: auto;
+    /* z-index: 2; */
+    margin-left: 101px;
+    margin-top: 41px;
+    height: 178px;
+    text-align: center;
+    visibility: hidden;
+}
+
+.winStatementO {
+    margin-top: 73px;
+}
+
+.resetBtn {
+    background-color: orange;
+    margin: auto;
+    width: 200px;
+    border-radius: 10%;
+    border: 2px solid black;
+    text-align: center;
+    cursor: pointer;
+    z-index: 3;
+    position: relative;
+}
+
+.playerOContainer {
+    text-align: center;
+}
+
+.playerXContainer {
+    text-align: center;
+}
